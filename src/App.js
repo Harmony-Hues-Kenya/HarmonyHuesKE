@@ -1,15 +1,13 @@
-import './App.css';
-import Navbar from './components/navbar';
+import "../App.css";
 
-function App() {
+function Navbar() {
   return (
-    <div className="App">
-      <div>
-        <Navbar />
-      </div>
-      <h1>Hello</h1>
+    <div className="flex bg-red-400">
+      <div>logo</div>
+      <div>element</div>
+      <div>cart and profile</div>
     </div>
   );
 }
 
-export default App;
+export default Navbar;
