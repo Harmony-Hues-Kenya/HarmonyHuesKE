@@ -6,7 +6,7 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 
-function App() {
+function Navbar() {
   return (
     <Router>
       <div className='relative'>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navbar;
